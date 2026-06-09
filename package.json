@@ -1,0 +1,24 @@
+{
+  "name": "solana-agent-allowance-demo",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "A Solana Native Subscriptions and Allowances demo for bounded AI-agent API spend.",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --noEmit",
+    "demo": "tsx src/index.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@solana/kit": "^6.9.0",
+    "@solana/subscriptions": "0.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.7.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.6"
+  }
+}
+
