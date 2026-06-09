@@ -2,6 +2,8 @@
 
 This repository is a technical demo for Solana Native Subscriptions and Allowances. It shows how an application can give an AI agent a bounded USDC budget for paid API work without handing the agent custody of the user's wallet.
 
+For the long-form architecture discussion, see [TECHNICAL_DEEP_DIVE.md](./TECHNICAL_DEEP_DIVE.md).
+
 ## Concept
 
 The demo models a Canadian-market research assistant named `NorthStar API scout`:
@@ -69,4 +71,3 @@ The demo output includes:
 - Solana announcement: https://solana.com/news/subscriptions-and-allowances
 - TypeScript SDK: https://www.npmjs.com/package/@solana/subscriptions
 - Source program: https://github.com/solana-program/subscriptions
-
